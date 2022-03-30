@@ -12,9 +12,7 @@ function generate(){
         "John 3:16" : '"For God so loved the world, that he gave his only Son, that whoever believes in him should not perish but have eternal life."',
         "John 14:6" : '"I am the way and the truth and the life. No one comes to the Father except through me"',
         "Psalm 150:6" : '"Let everything that has breath praise the Lord! Praise the Lord!"',
-        
-
-
+        //Add more verses 
     }
 
     // generates an array of all the keys (authors)
