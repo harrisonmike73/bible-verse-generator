@@ -1,0 +1,47 @@
+body{
+    background: lightblue;
+}
+
+.container{
+    width: 95%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.genBtn{
+    
+    margin: 0 auto;
+    display: block;
+    
+}
+
+
+.verses{
+    width: 900px;
+    height: 450px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    color: rgb(124, 124, 124);
+    background-color: rgb(228, 236, 228);
+    border: 10px solid salmon;
+}
+
+.verses p{
+    font-size: 1.5rem;
+}
+
+.verses h3{
+    font-size: 1rem;
+}
+
+@media(max-width:480px){
+    .verses p, .verses h3{
+        font-size: 1rem;
+    }
+}
